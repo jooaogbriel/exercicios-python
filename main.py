@@ -1,4 +1,7 @@
-number = int(input('digite um numero: '))
-a = number - 1
-s = number + 1
-print(f'analisando o valor {number} o seu antecessor é {a} e seu sucessor é {s}')
+n = int(input('digite um numero'))
+d = n * 2 
+t = n * 3
+r = n ** (1/2)
+print(f' o dobro de {n} é {d}')
+print(f' o triplo de {n} é {t}')
+print(f' a raiz quadrada de {n} é {r}')

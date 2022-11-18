@@ -1,4 +1,9 @@
-y = int(input('digite um numero '))
-x = int(input('digite outro numero '))
-s = y + x
-print(f'a soma de {y} + {x} é {s}')
+palavra = input('Digite algo: ')
+print(f'o tipo primitivo desse valor é {type(palavra)}')
+print(f'é um numero? {(palavra.isnumeric())}')
+print(f'só tem espaços? {(palavra.isspace())}')
+print(f'é um numero? {(palavra.isnumeric())}')
+print(f'é alfabético? {(palavra.isalpha())}')
+print(f'é maiusculo? {(palavra.isupper())}')
+print(f'é minusculo? {(palavra.islower())}')
+print(f'esta capitalizada? {(palavra.istitle())}')

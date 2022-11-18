@@ -1,2 +1,2 @@
-hello_word = 'olá mundo'
-print(hello_word)
+name = input('Qual é seu nome?')
+print(f'boas vindas {name}')

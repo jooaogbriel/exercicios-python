@@ -1,9 +1,4 @@
-palavra = input('Digite algo: ')
-print(f'o tipo primitivo desse valor é {type(palavra)}')
-print(f'é um numero? {(palavra.isnumeric())}')
-print(f'só tem espaços? {(palavra.isspace())}')
-print(f'é um numero? {(palavra.isnumeric())}')
-print(f'é alfabético? {(palavra.isalpha())}')
-print(f'é maiusculo? {(palavra.isupper())}')
-print(f'é minusculo? {(palavra.islower())}')
-print(f'esta capitalizada? {(palavra.istitle())}')
+number = int(input('digite um numero: '))
+a = number - 1
+s = number + 1
+print(f'analisando o valor {number} o seu antecessor é {a} e seu sucessor é {s}')

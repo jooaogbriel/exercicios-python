@@ -1,9 +1,4 @@
-palavra = input('Digite algo: ')
-print(f'o tipo primitivo desse valor é {type(palavra)}')
-print(f'é um numero? {(palavra.isnumeric())}')
-print(f'só tem espaços? {(palavra.isspace())}')
-print(f'é um numero? {(palavra.isnumeric())}')
-print(f'é alfabético? {(palavra.isalpha())}')
-print(f'é maiusculo? {(palavra.isupper())}')
-print(f'é minusculo? {(palavra.islower())}')
-print(f'esta capitalizada? {(palavra.istitle())}')
+x = 8
+y = 7
+result = (x + y) /2
+print(f'media {result}')
